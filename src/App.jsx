@@ -8,7 +8,7 @@ import Result from './components/result'
 function App() {
   return (
     <BrowserRouter>
-        <Banner/>
+        <Banner/> 
         <Routes>
           <Route path='/' element={<Level/>}/>
           <Route path='/quiz/:level' element={<QuizArea/>}/>
