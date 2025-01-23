@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Level from './components/Level'
 import QuizArea from './components/QuizArea'
 import Banner from './components/Banner'
-import Result from './components/result'
+import Result from './components/Result'
 
 function App() {
   return (
