@@ -1,10 +1,8 @@
 import { createSlice } from "@reduxjs/toolkit"
-
 const initialState = {
     marksObj : null,
     answers : null,
 };
-
 const markSlice = createSlice({
     name: 'mark',
     initialState,
@@ -18,6 +16,5 @@ const markSlice = createSlice({
 
     }
 });
-
 export const { setMark ,createAnswers} = markSlice.actions;
 export default markSlice.reducer;
